@@ -1,0 +1,25 @@
+@import '../../assets/variables';
+
+.project-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  background: $black;
+  box-shadow: 8px 16px 10px rgb(12, 12, 12);
+  padding: 4px;
+  padding-left: 12px;
+  width: 55%;
+  margin: 16px;
+
+  .project-description {
+    width: 30%;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    // background: $white;
+  }
+}
