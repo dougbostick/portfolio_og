@@ -25,16 +25,15 @@
     top: 50%;
     margin-top: -120px;
     width: 100%;
-
     a {
       font-size: 22px;
       color: $icon;
       display: block;
-      line-height: 60px;
+      line-height: 50px;
       height: 50px;
       position: relative;
       text-decoration: none;
-
+      margin: 8px;
       i {
         transition: all 0.3s ease-out;
       }
