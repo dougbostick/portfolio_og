@@ -11,13 +11,15 @@
   padding-left: 12px;
   width: 55%;
   margin: 16px;
+  // height: 120vh;
 
   .project-description {
-    width: 40%;
-
+    width: 70%;
+    // height: 100vh;
     p {
       font-weight: 400;
       letter-spacing: 1px;
+      font-size: 16px;
     }
 
     a {

@@ -23,13 +23,20 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 0.3s;
+
+  .large-logo {
+    position: absolute;
+    left: 55%;
+    top: 5%;
+    // bottom: 35%;
+  }
 }
 
 .project-list {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   // overflow: scroll;
 }
 
@@ -40,4 +47,9 @@
   color: $white;
   left: 15%;
   top: 5%;
+
+  h1 {
+    font-size: 28px;
+    letter-spacing: 4px;
+  }
 }

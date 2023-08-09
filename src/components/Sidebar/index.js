@@ -8,12 +8,13 @@ import {
   faUser,
   faLayerGroup,
 } from '@fortawesome/free-solid-svg-icons';
+import logo from '../../assets/images/logo.png';
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
-        <>LOGO</>
+      <Link to="/">
+        <img src={logo} alt="logo" className="logo" />
       </Link>
       <nav>
         <NavLink
