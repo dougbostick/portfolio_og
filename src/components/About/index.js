@@ -9,11 +9,11 @@ const About = () => {
         <h1>About Me...</h1>
         <p>
           I have always been a lover of solving problems and building projects.
-          I found the perfect way to combine this when I started coding!
+          I found the perfect way to combine them when I started programming!
         </p>
         <p>
           I learned full-stack development from Fullstack Academy and
-          immediately fell in love with debugging code and solving algorithims.
+          immediately fell in love with debugging code and solving algorithms.
         </p>
         <p>
           Before my career as a software engineer I was a jazz guitarist who did
@@ -21,9 +21,9 @@ const About = () => {
           cruise ships.
         </p>
         <p>
-          I have noticed so many similarities between software development and
+          I have noticed many similarities between software development and
           music. Both of them force you to think in the abstract and use parts
-          of your brain you don't normally use, which I really love!
+          of your brain you don't normally use, which I find very appealing!
         </p>
       </div>
       <div className="large-logo-about">

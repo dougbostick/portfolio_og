@@ -27,9 +27,7 @@ const Projects = () => {
               movies.
               <br />
               It leverages themovieDB API to have a robust selection of current
-              media and
-              {/* <br /> */}
-              utilizes React, Express, SQL, Redux, REST APIs, CSS
+              media and utilizes React, Express, SQL, Redux, REST APIs, CSS
             </p>
           </div>
           <div className="project-logo">
