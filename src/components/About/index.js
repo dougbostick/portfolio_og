@@ -23,7 +23,7 @@ const About = () => {
         <p>
           I have noticed so many similarities between software development and
           music. Both of them force you to think in the abstract and use parts
-          of your brain you don't normally use; which I really love!
+          of your brain you don't normally use, which I really love!
         </p>
       </div>
       <div className="large-logo-about">
