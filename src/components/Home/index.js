@@ -1,6 +1,5 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
 import biglogo from '../../assets/images/biglogo.png';
 
 const Home = () => {

@@ -1,1 +1,29 @@
 @import '../../assets/variables';
+
+.text-zone-about {
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  top: 5%;
+  transform: trasnlateY(-50%);
+  width: 60%;
+  max-height: 90%;
+  color: $white;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+a:hover {
+  opacity: 0.6;
+}
+.large-logo-about {
+  position: absolute;
+  left: 44%;
+  top: 78%;
+  z-index: -1;
+  img {
+    width: 200px;
+    height: auto;
+  }
+}
