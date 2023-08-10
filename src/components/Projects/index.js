@@ -58,7 +58,7 @@ const Projects = () => {
               agree on a meeting place!
               <br />
               It leverages the Google directions, map, and places APIs to search
-              the current businesses.
+              nearby businesses.
               <br />
               It utilizes tools like geolocation, map markers, autocomplete and
               direction rendering to create a seemless user experience.
