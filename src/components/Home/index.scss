@@ -1,82 +1,84 @@
 @import '../../assets/variables';
 
-.home-page {
-  .text-zone {
-    position: absolute;
-    left: 13%;
-    top: 20%;
-    transform: trasnlateY(-50%);
-    width: 60%;
-    max-height: 90%;
-    color: $white;
-    // z-index: 5;
-
-    h1 {
+@media (min-width: 900px) {
+  .home-page {
+    .text-zone {
+      position: absolute;
+      left: 13%;
+      top: 20%;
+      transform: trasnlateY(-50%);
       width: 60%;
-      font-weight: 500;
-
-      // .first {
-      //   animation: fadeIn 1s 0.2s backwards;
-      // }
-
-      // .second {
-      //   animation: fadeIn 1s 0.8s backwards;
-      // }
-
-      // .last {
-      //   animation: fadeIn 1s 1.4s backwards;
-      // }
-    }
-
-    h2 {
+      max-height: 90%;
       color: $white;
-      margin-top: 20px;
-      font-weight: 400;
-      font-family: sans-serif;
-      letter-spacing: 3px;
-      animation: fadeIn 1s 2s backwards;
-    }
+      // z-index: 5;
 
-    .button-div {
-      display: flex;
-      justify-content: space-between;
-      width: 65%;
-    }
+      h1 {
+        width: 60%;
+        font-weight: 500;
 
-    .flat-button {
-      color: $purple;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 4px;
-      font-family: sans-serif;
-      text-decoration: none;
-      padding: 10px 18px;
-      border: 1px solid $purple;
-      margin-top: 25px;
-      float: left;
-      animation: fadeIn 1s 2.2s backwards;
-      white-space: nowrap;
+        // .first {
+        //   animation: fadeIn 1s 0.2s backwards;
+        // }
 
-      &:hover {
-        background: $purple;
-        color: $icon;
+        // .second {
+        //   animation: fadeIn 1s 0.8s backwards;
+        // }
+
+        // .last {
+        //   animation: fadeIn 1s 1.4s backwards;
+        // }
+      }
+
+      h2 {
+        color: $white;
+        margin-top: 20px;
+        font-weight: 400;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 2s backwards;
+      }
+
+      .button-div {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+      }
+
+      .flat-button {
+        color: $purple;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid $purple;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 2.2s backwards;
+        white-space: nowrap;
+
+        &:hover {
+          background: $purple;
+          color: $icon;
+        }
       }
     }
   }
-}
 
-.first {
-  animation: fadeIn 1s 0.4s backwards;
-}
+  .first {
+    animation: fadeIn 1s 0.4s backwards;
+  }
 
-.second {
-  animation: fadeIn 1s 1s backwards;
-}
+  .second {
+    animation: fadeIn 1s 1s backwards;
+  }
 
-.third {
-  animation: fadeIn 1s 1.6s backwards;
-}
+  .third {
+    animation: fadeIn 1s 1.6s backwards;
+  }
 
-.last {
-  animation: fadeIn 1s 2.2s backwards;
+  .last {
+    animation: fadeIn 1s 2.2s backwards;
+  }
 }

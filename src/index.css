@@ -7,8 +7,8 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
   background: #004971;
-  overflow: hidden;
-  display: block;
+  /* overflow: hidden; */
+  /* display: block; */
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
@@ -20,3 +20,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @media (max-width: 960px) {
+  .page {
+    height: 100vh;
+    width: 100vh;
+    background: white;
+  } */
+/* background-color: white; */
+/* .container {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+  }
+} */

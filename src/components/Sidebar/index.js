@@ -62,7 +62,6 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
-
         <li>
           <a
             target="_blank"

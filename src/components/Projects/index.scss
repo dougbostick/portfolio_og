@@ -1,46 +1,48 @@
 @import '../../assets/variables';
 
-.project-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: 1px solid black;
-  background: $black;
-  box-shadow: 8px 16px 10px rgb(12, 12, 12);
-  padding: 4px;
-  padding-left: 12px;
-  width: 55%;
-  margin: 16px;
-  // height: 120vh;
+@media (min-width: 900px) {
+  .project-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background: $black;
+    box-shadow: 8px 16px 10px rgb(12, 12, 12);
+    padding: 4px;
+    padding-left: 12px;
+    width: 55%;
+    margin: 16px;
+    // height: 120vh;
 
-  .project-description {
-    width: 70%;
-    // height: 100vh;
-    p {
-      font-weight: 400;
-      letter-spacing: 1px;
-      font-size: 16px;
-    }
+    .project-description {
+      width: 70%;
+      // height: 100vh;
+      p {
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 16px;
+      }
 
-    a {
-      text-decoration: none;
-      color: $lightBlue;
-      svg {
-        padding-left: 8px;
+      a {
+        text-decoration: none;
+        color: $lightBlue;
+        svg {
+          padding-left: 8px;
+        }
       }
     }
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin-left: 30px;
+      // background: rgb(80, 80, 80);
+      // filter: grayscale(1);
+      // filter: brightness(1);
+    }
   }
 
-  img {
-    width: 200px;
-    height: 200px;
-    margin-left: 30px;
-    // background: rgb(80, 80, 80);
-    // filter: grayscale(1);
-    // filter: brightness(1);
+  .daja {
+    filter: brightness(0) invert(1);
   }
-}
-
-.daja {
-  filter: brightness(0) invert(1);
 }
