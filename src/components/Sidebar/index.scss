@@ -96,7 +96,7 @@
       }
     }
 
-    ul {
+    .ext-links {
       position: absolute;
       bottom: 20px;
       width: 100%;
@@ -106,19 +106,15 @@
       text-align: center;
       margin: 0;
       text-decoration: none;
-
-      li {
-        margin-bottom: 25%;
-
-        a {
-          padding: 7px 0;
-          color: $icon;
-          display: block;
-          font-size: 22px;
-          line-height: 26px;
-          &:hover svg {
-            color: $lightBlue;
-          }
+      margin-bottom: 25%;
+      a {
+        padding: 7px 0;
+        color: $icon;
+        display: block;
+        font-size: 22px;
+        line-height: 26px;
+        &:hover svg {
+          color: $lightBlue;
         }
       }
     }

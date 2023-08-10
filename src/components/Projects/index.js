@@ -105,8 +105,9 @@ const Projects = () => {
             >
               <img
                 src={seven}
+                className="bowl-logo"
                 alt="seven"
-                style={{ width: '195px', height: '150px' }}
+                // style={{ width: '195px', height: '150px' }}
               />
             </a>
           </div>

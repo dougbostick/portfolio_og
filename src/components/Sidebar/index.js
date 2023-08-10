@@ -52,26 +52,23 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faLayerGroup} />
         </NavLink>
       </nav>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/doug-bostick/"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/dougbostick"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </li>
-      </ul>
+      <div className="ext-links">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/doug-bostick/"
+        >
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/dougbostick"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+      </div>
     </div>
   );
 };

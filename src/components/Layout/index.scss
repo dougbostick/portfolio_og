@@ -42,70 +42,19 @@
   }
 
   .project-page {
-    // position: absolute;
-    // height: 120%;
     overflow: scroll;
     color: $white;
     left: 15%;
     top: 5%;
 
+    .project-list {
+      margin-bottom: 5%;
+    }
+
     h1 {
       font-size: 28px;
       letter-spacing: 4px;
+      margin-bottom: 5%;
     }
   }
 }
-
-// @media (max-width: 960px) {
-//   body {
-//     background-color: white;
-//     overflow: scroll;
-//     // width: 100vh;
-//     // height: 100vh;
-//     // display: flex;
-//     // flex-direction: column;
-//     .app {
-//       width: 100%;
-//       height: 100%;
-//       overflow: scroll;
-//     }
-
-//     .page {
-//       display: flex;
-//       overflow: scroll;
-//       position: relative;
-//       // display: flex;
-//     }
-//     .container {
-//       width: 70%;
-//       .large-logo {
-//         position: relative;
-//       }
-//       .text-zone {
-//         position: relative;
-//         background: red;
-//         width: 70%;
-//       }
-//     }
-
-//     .nav-bar {
-//       // background: white;
-//       position: relative;
-//       width: 30%;
-//       height: 100%;
-//     }
-//   }
-//   // .nav-bar {
-//   //   background: white;
-//   //   // position: relative;
-//   //   // width: 30%;
-//   // }
-//   // .home-page {
-//   //   position: relative;
-//   // }
-
-//   // .app {
-//   //   display: flex;
-//   //   flex-direction: column;
-//   // }
-// }
