@@ -2,6 +2,7 @@ import './index.scss';
 import daja from '../../assets/images/daja.png';
 import seven from '../../assets/images/7-10.png';
 import half from '../../assets/images/halfway.png';
+import wordRush from '../../assets/images/wordrushlogo.png';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -16,31 +17,69 @@ const Projects = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://daja-view1.herokuapp.com"
+                href="https://word-game-nu.vercel.app/"
               >
-                Daja View
+                Word Rush
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </h1>
             <p>
-              Daja View is a social media app focused on recommending shows and
-              movies.
+              Word Rush is a New York Times inspired word game where you can
+              test your vocabulary with a timed challenge!
               <br />
-              It leverages themovieDB API to have a robust selection of current
-              media and utilizes React, Express, SQL, Redux, REST APIs, CSS
+              It uses React, Javascript and SCSS to create an egnaging gaming
+              experience.
             </p>
           </div>
           <div className="project-logo">
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://daja-view1.herokuapp.com"
+              href="https://word-game-nu.vercel.app/"
             >
-              <img src={daja} alt="daja" className="daja" />
+              <img src={wordRush} alt="wordRush" className="wordRushLogo" />
             </a>
           </div>
         </div>
         <div className="third project-div">
+          <div className="project-description">
+            <h1>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://seven-ten-split.herokuapp.com/"
+              >
+                7-10 Split Bowling Shop
+                <FontAwesomeIcon icon={faArrowRight} />
+              </a>
+            </h1>
+            <p>
+              7-10 Split is a PSQL e-commerce bowling app designed to cater to
+              the most serious bowlers.
+              <br />
+              The backend is built using an Express server which utilizes REST
+              APIs.
+              <br />
+              The front end uses React and was built using hooks, Redux Toolkit
+              for state management and the most current React practices.
+            </p>
+          </div>
+          <div className="project-logo">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://seven-ten-split.herokuapp.com/"
+            >
+              <img
+                src={seven}
+                className="bowl-logo"
+                alt="seven"
+                // style={{ width: '195px', height: '150px' }}
+              />
+            </a>
+          </div>
+        </div>
+        <div className="last project-div">
           <div className="project-description">
             <h1>
               <a
@@ -80,35 +119,27 @@ const Projects = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://seven-ten-split.herokuapp.com/"
+                href="https://daja-view1.herokuapp.com"
               >
-                7-10 Split Bowling Shop
+                Daja View
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </h1>
             <p>
-              7-10 Split is a PSQL e-commerce bowling app designed to cater to
-              the most serious bowlers.
+              Daja View is a social media app focused on recommending shows and
+              movies.
               <br />
-              The backend is built using an Express server which utilizes REST
-              APIs.
-              <br />
-              The front end uses React and was built using hooks, Redux Toolkit
-              for state management and the most current React practices.
+              It leverages themovieDB API to have a robust selection of current
+              media and utilizes React, Express, SQL, Redux, REST APIs, CSS
             </p>
           </div>
           <div className="project-logo">
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://seven-ten-split.herokuapp.com/"
+              href="https://daja-view1.herokuapp.com"
             >
-              <img
-                src={seven}
-                className="bowl-logo"
-                alt="seven"
-                // style={{ width: '195px', height: '150px' }}
-              />
+              <img src={daja} alt="daja" className="daja" />
             </a>
           </div>
         </div>
