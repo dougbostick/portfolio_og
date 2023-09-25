@@ -92,12 +92,9 @@ const Projects = () => {
               </a>
             </h1>
             <p>
-              Oh No API trouble! There may have been a breach in the API key and
-              until we find out more unfortunately Halfway is out of order! We
-              will resolve soon and return service ASAP! Halfway Maps is a
-              Google Maps application that finds places to meet halfway between
-              two locations. It is designed to help friends agree on a meeting
-              place!
+              Halfway Maps is a Google Maps application that finds places to
+              meet halfway between two locations. It is designed to help friends
+              agree on a meeting place!
               <br />
               It leverages the Google directions, map, and places APIs to search
               nearby businesses.
