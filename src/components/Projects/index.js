@@ -27,7 +27,7 @@ const Projects = () => {
               Word Rush is a New York Times inspired word game where you can
               test your vocabulary with a timed challenge!
               <br />
-              It uses React, Javascript and SCSS to create an egnaging gaming
+              It uses React, Javascript and SCSS to create an engaging gaming
               experience.
             </p>
           </div>
@@ -42,7 +42,41 @@ const Projects = () => {
           </div>
         </div>
         <div className="third project-div">
-          <div className="project-description">
+        <div className="project-description">
+            <h1>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://dougbostick.github.io/react_halfway/"
+              >
+                Halfway Maps
+                <FontAwesomeIcon icon={faArrowRight} />
+              </a>
+            </h1>
+            <p>
+              Halfway Maps is a Google Maps application that finds places to
+              meet halfway between two locations. It is designed to help friends
+              agree on a meeting place!
+              <br />
+              It leverages the Google directions, map, and places APIs to search
+              nearby businesses.
+              <br />
+              It utilizes tools like geolocation, map markers, autocomplete and
+              direction rendering to create a seemless user experience.
+            </p>
+          </div>
+          <div className="project-logo">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://dougbostick.github.io/react_halfway/"
+            >
+              <img src={half} alt="half" />
+            </a>
+          </div>
+        </div>
+        <div className="last project-div">
+        <div className="project-description">
             <h1>
               <a
                 target="_blank"
@@ -76,40 +110,6 @@ const Projects = () => {
                 alt="seven"
                 // style={{ width: '195px', height: '150px' }}
               />
-            </a>
-          </div>
-        </div>
-        <div className="last project-div">
-          <div className="project-description">
-            <h1>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://dougbostick.github.io/react_halfway/"
-              >
-                Halfway Maps
-                <FontAwesomeIcon icon={faArrowRight} />
-              </a>
-            </h1>
-            <p>
-              Halfway Maps is a Google Maps application that finds places to
-              meet halfway between two locations. It is designed to help friends
-              agree on a meeting place!
-              <br />
-              It leverages the Google directions, map, and places APIs to search
-              nearby businesses.
-              <br />
-              It utilizes tools like geolocation, map markers, autocomplete and
-              direction rendering to create a seemless user experience.
-            </p>
-          </div>
-          <div className="project-logo">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://dougbostick.github.io/react_halfway/"
-            >
-              <img src={half} alt="half" />
             </a>
           </div>
         </div>
