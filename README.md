@@ -10,7 +10,7 @@ Hello, thank you for coming by my github page to learn more about me and my proj
 My portolfio is a React application utilizing SCSS for beautiful and dynamic stylings that make you feel welcome on every page. 
 
 ## Visit Now
-[ https://word-game-nu.vercel.app/](https://portfolio-og-psi.vercel.app/)
+[ http://dougbosticktech.com/](http://dougbosticktech.com/)
 
  <a href="http://dougbosticktech.com/" target="_blank">
   <img src="https://github.com/dougbostick/react_portfolio/assets/95255667/d014e21b-e1e0-44b8-9fcf-219cae5ab83d" />
