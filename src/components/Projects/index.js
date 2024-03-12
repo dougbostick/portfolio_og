@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Projects = () => {
   return (
     <div className="container project-page">
-      <h1 className="first">Projects</h1>
+      <p className="first project-title">Projects</p>
       <div className="project-list">
         <div className="second project-div">
           <div className="project-description">
@@ -24,11 +24,11 @@ const Projects = () => {
               </a>
             </h1>
             <p>
+              <span className='stack'>Tech Stack: React, SASS, animate.css</span> 
+              <br />
+              <br />
               Word Rush is a New York Times inspired word game where you can
               test your vocabulary with a timed challenge!
-              <br />
-              It uses React, Javascript and SCSS to create an engaging gaming
-              experience.
             </p>
           </div>
           <div className="project-logo">
@@ -54,15 +54,13 @@ const Projects = () => {
               </a>
             </h1>
             <p>
+              <span className='stack'>Tech Stack: React, Google Directions APIs, Places APIs</span>
+              <br />
+              <br />
               Halfway Maps is a Google Maps application that finds places to
               meet halfway between two locations. It is designed to help friends
               agree on a meeting place!
-              <br />
-              It leverages the Google directions, map, and places APIs to search
-              nearby businesses.
-              <br />
-              It utilizes tools like geolocation, map markers, autocomplete and
-              direction rendering to create a seemless user experience.
+        
             </p>
           </div>
           <div className="project-logo">
@@ -88,14 +86,11 @@ const Projects = () => {
               </a>
             </h1>
             <p>
-              7-10 Split is a PSQL e-commerce bowling app designed to cater to
-              the most serious bowlers.
+              <span className='stack'>Tech Stack: React, Redux Toolkit, Express, PostgreSQL, REST APIs</span>
               <br />
-              The backend is built using an Express server which utilizes REST
-              APIs.
               <br />
-              The front end uses React and was built using hooks, Redux Toolkit
-              for state management and the most current React practices.
+              7-10 Split is an e-commerce bowling app designed to cater to
+              the most serious bowlers! This is a full-stack web application that leverages PostgreSQL for secure user accounts.
             </p>
           </div>
           <div className="project-logo">
@@ -108,7 +103,6 @@ const Projects = () => {
                 src={seven}
                 className="bowl-logo"
                 alt="seven"
-                // style={{ width: '195px', height: '150px' }}
               />
             </a>
           </div>
@@ -126,11 +120,12 @@ const Projects = () => {
               </a>
             </h1>
             <p>
-              Daja View is a social media app focused on recommending shows and
-              movies.
+              Tech Stack: React, Express, SQL, Redux, CSS, REST APIs
               <br />
-              It leverages themovieDB API to have a robust selection of current
-              media and utilizes React, Express, SQL, Redux, REST APIs, CSS
+              <br />
+              Daja View is a social media app focused on recommending shows and
+              movies. It leverages themovieDB API to have a robust selection of current
+              media.
             </p>
           </div>
           <div className="project-logo">
