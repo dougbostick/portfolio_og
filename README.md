@@ -13,7 +13,8 @@ My portolfio is a React application utilizing SCSS for beautiful and dynamic sty
 [ http://dougbosticktech.com/](http://dougbosticktech.com/)
 
  <a href="http://dougbosticktech.com/" target="_blank">
-  <img src="[https://github.com/dougbostick/portfolio_og/assets/images/logo.png](https://github.com/dougbostick/portfolio_og/blob/main/src/assets/images/logo.png)https://github.com/dougbostick/portfolio_og/blob/main/src/assets/images/logo.png" />
+
+  <img src="https://github.com/dougbostick/portfolio_og/blob/main/src/assets/images/logo.png" />
  </a>
 
 
