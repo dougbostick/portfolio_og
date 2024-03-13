@@ -1,12 +1,13 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
 import biglogo from '../../assets/images/biglogo.png';
+import logo2 from '../../assets/images/logo2.png'
 
 const Home = () => {
   return (
     <div className="container home-page">
       <div className="large-logo">
-        <img src={biglogo} alt="large-logo" />
+        <img src={logo2} alt="large-logo" />
       </div>
       <div className="text-zone">
         <h1>

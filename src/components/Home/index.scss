@@ -9,31 +9,20 @@
       transform: trasnlateY(-50%);
       width: 60%;
       max-height: 90%;
-      color: $white;
+      color: $black;
       font-family: "Poppins", sans-serif;
 
       h1 {
         width: 60%;
         font-weight: 500;
-
-        // .first {
-        //   animation: fadeIn 1s 0.2s backwards;
-        // }
-
-        // .second {
-        //   animation: fadeIn 1s 0.8s backwards;
-        // }
-
-        // .last {
-        //   animation: fadeIn 1s 1.4s backwards;
-        // }
       }
 
       h2 {
-        color: $white;
+        color: $black;
         margin-top: 20px;
         font-weight: 400;
-        font-family: sans-serif;
+        // font-family: sans-serif;
+        font-family: "Poppins", sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 2s backwards;
       }
@@ -49,18 +38,18 @@
         font-size: 13px;
         font-weight: 600;
         letter-spacing: 4px;
-        // font-family: sans-serif;
         text-decoration: none;
         padding: 10px 18px;
         border: 1px solid $purple;
         margin-top: 25px;
         float: left;
-        animation: fadeIn 1s 2.2s backwards;
+        transition: .2s;
         white-space: nowrap;
-
+        border-radius: 14px;
         &:hover {
           background: $purple;
-          color: $icon;
+          color: white;
+          opacity: 1;
         }
       }
     }

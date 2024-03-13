@@ -9,9 +9,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Projects = () => {
   return (
     <div className="container project-page">
-      <p className="first project-title">Projects</p>
+      <h1 className="project-title">PROJECTS</h1>
       <div className="project-list">
-        <div className="second project-div">
+        <div className="first project-div">
           <div className="project-description">
             <h1>
               <a
@@ -19,7 +19,7 @@ const Projects = () => {
                 rel="noreferrer"
                 href="https://word-game-nu.vercel.app/"
               >
-                Word Rush
+                WORD RUSH
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </h1>
@@ -41,7 +41,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="third project-div">
+        <div className="second project-div">
         <div className="project-description">
             <h1>
               <a
@@ -49,7 +49,7 @@ const Projects = () => {
                 rel="noreferrer"
                 href="https://dougbostick.github.io/react_halfway/"
               >
-                Halfway Maps
+                HALFWAY MAPS
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </h1>
@@ -73,7 +73,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="last project-div">
+        <div className="third project-div">
         <div className="project-description">
             <h1>
               <a
@@ -81,7 +81,7 @@ const Projects = () => {
                 rel="noreferrer"
                 href="https://seven-ten-split.herokuapp.com/"
               >
-                7-10 Split Bowling Shop
+                7-10 SPLIT BOWLING SHOP
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </h1>
@@ -115,7 +115,7 @@ const Projects = () => {
                 rel="noreferrer"
                 href="https://daja-view1.herokuapp.com"
               >
-                Daja View
+                DAJA VIEW
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </h1>

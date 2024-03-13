@@ -8,13 +8,14 @@ import {
   faUser,
   faLayerGroup,
 } from '@fortawesome/free-solid-svg-icons';
-import logo from '../../assets/images/logo.png';
+import letters from '../../assets/images/letters.png'
+import logo2 from '../../assets/images/logo2.png'
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link to="/">
-        <img src={logo} alt="logo" className="logo" />
+        <img src={letters} alt="logo" className="logo" />
       </Link>
       <nav>
         <NavLink

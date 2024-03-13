@@ -11,6 +11,8 @@
 .project-title{
   font-size: 38px;
   margin-left: 16px;
+  color: $black;
+  // font-weight: 400;
 }
 
 @media (min-width: 900px) {
@@ -18,10 +20,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
     border-radius: 16px;
-    background: $black;
-    box-shadow: 4px 8px 5px rgb(12, 12, 12);
+    background: white;
+    box-shadow: 0 3px 5px 2px rgba(0, 0, 0, .1);
     padding: 4px;
     padding-left: 12px;
     width: 75%;
@@ -30,7 +31,7 @@
 
     .project-description {
       width: 70%;
-
+      color: $black;
       p {
         font-weight: 400;
         font-size: 16px;
@@ -38,7 +39,7 @@
 
       a {
         text-decoration: none;
-        color: $lightBlue;
+        color: $purple;
         svg {
           padding-left: 8px;
         }
@@ -53,6 +54,6 @@
   }
 
   .daja {
-    filter: brightness(0) invert(1);
+    // filter: brightness(0) invert(1);
   }
 }

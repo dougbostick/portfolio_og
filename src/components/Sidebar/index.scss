@@ -2,7 +2,7 @@
 
 @media (min-width: 900px) {
   .nav-bar {
-    background: $black;
+    background: #eaeaeb;
     width: 120px;
     height: 100%;
     position: fixed;
@@ -40,7 +40,7 @@
         }
 
         &:hover {
-          color: $lightBlue;
+          color: #47509a;
 
           svg {
             opacity: 0;
@@ -68,30 +68,35 @@
       a.home-link {
         &::after {
           content: 'HOME';
+          font-family: "Poppins", sans-serif;
         }
       }
 
       a.about-link {
         &::after {
           content: 'ABOUT';
+          font-family: "Poppins", sans-serif;
         }
       }
 
       a.contact-link {
         &::after {
           content: 'CONTACT';
+          font-family: "Poppins", sans-serif;
         }
       }
 
       a.project-link {
         &::after {
           content: 'PROJECTS';
+          font-family: "Poppins", sans-serif;
+
         }
       }
 
       a.active {
         svg {
-          color: $lightBlue;
+          color: $purple;
         }
       }
     }
@@ -114,7 +119,7 @@
         font-size: 22px;
         line-height: 26px;
         &:hover svg {
-          color: $lightBlue;
+          color: $purple;
         }
       }
     }

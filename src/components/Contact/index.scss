@@ -3,13 +3,13 @@
 @media (min-width: 900px) {
   .text-zone-contact {
     position: absolute;
-    text-align: center;
-    left: 13%;
-    top: 20%;
+    text-align: left;
+    left: 20%;
+    top: 5%;
     transform: trasnlateY(-50%);
     width: 60%;
     max-height: 90%;
-    color: $white;
+    color: $black;
     line-height: 28px;
     font-size: 18px;
     font-weight: 400;
@@ -21,9 +21,9 @@
 
     .button-div-contact {
       display: flex;
-      justify-content: center;
+      justify-content: start;
       width: 65%;
-      margin-left: 18%;
+      // margin-right: 18%;
 
       a {
         margin: 12px;
@@ -31,7 +31,7 @@
     }
 
     .flat-button {
-      color: $purple;
+      color: #47509a;
       font-size: 13px;
       font-weight: 600;
       letter-spacing: 4px;
@@ -41,12 +41,13 @@
       border: 1px solid $purple;
       margin-top: 25px;
       float: left;
-      animation: fadeIn 1s 1s backwards;
+      transition: .2s;
       white-space: nowrap;
-
+      border-radius: 14px;
       &:hover {
         background: $purple;
-        color: $icon;
+        color: white;
+        opacity: 1;
       }
     }
   }

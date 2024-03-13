@@ -1,6 +1,7 @@
 import './index.scss';
 import biglogo from '../../assets/images/biglogo.png';
 import { Link } from 'react-router-dom';
+import logo2 from '../../assets/images/logo2.png'
 
 const About = () => {
   return (
@@ -25,12 +26,13 @@ const About = () => {
           music. Both of them force you to think in the abstract and use parts
           of your brain you don't normally use, which I find very appealing!
         </p>
+        
       </div>
-      <div className="large-logo-about">
+      {/* <div className="large-logo-about">
         <Link to="/">
-          <img src={biglogo} alt="large-logo" />
+          <img src={logo2} alt="large-logo" />
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };
