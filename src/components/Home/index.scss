@@ -1,13 +1,19 @@
 @import '../../assets/variables';
 
-@media (min-width: 900px) {
+
+
+@media (min-width: 901px) {
   .home-page {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // margin-left: 150px;
     .text-zone {
       position: absolute;
       left: 13%;
       top: 20%;
       transform: trasnlateY(-50%);
-      width: 60%;
+      // width: 60%;
       max-height: 90%;
       color: $black;
       font-family: "Poppins", sans-serif;
@@ -70,4 +76,28 @@
   .last {
     animation: fadeIn 1s 2.2s backwards;
   }
+}
+
+
+@media(max-width: 1370px){
+  .home-page{
+    display: flex;
+    flex-direction: column;
+    .text-zone{
+      position: relative;
+      width: 60%;
+      top: 0;
+      left: 25%
+    }
+    .large-logo{
+      position: relative;
+      left: 12%;
+      top: 0;
+      width: 70%;
+      img{
+        width: 85%;
+      }
+    }
+  }
+  
 }

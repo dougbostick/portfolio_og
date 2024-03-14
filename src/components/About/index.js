@@ -1,7 +1,4 @@
 import './index.scss';
-import biglogo from '../../assets/images/biglogo.png';
-import { Link } from 'react-router-dom';
-import logo2 from '../../assets/images/logo2.png'
 
 const About = () => {
   return (

@@ -9,7 +9,6 @@ import {
   faLayerGroup,
 } from '@fortawesome/free-solid-svg-icons';
 import letters from '../../assets/images/letters.png'
-import logo2 from '../../assets/images/logo2.png'
 
 const Sidebar = () => {
   return (
