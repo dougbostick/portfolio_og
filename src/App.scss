@@ -187,21 +187,25 @@
       }
       .contact-page {
         height: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: -10%;
+
       }
       .text-zone-contact {
        font-family: "Poppins", sans-serif;
-        height: 40%;
+        height: 50%;
+        width: 100%;
         color: $black;
         margin-bottom: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        font-size: 180%;
+        // font-size: 180%;
       }
       .button-div-contact {
         display: flex;
@@ -210,6 +214,7 @@
         a {
           color: $purple;
           text-decoration: none;
+          font-size: 18px;
         }
 
         .flat-button {
@@ -222,7 +227,6 @@
           border-radius: 14px;
           margin: 12px;
           float: left;
-          // animation: fadeIn 1s 1s backwards;
           transition: .2s;
           &:hover {
             background: $purple;
@@ -262,7 +266,6 @@
           }
         }
         p {
-          // color: $white;
           font-family: "Poppins", sans-serif;
           color: $black;
           font-size: 130%;

@@ -25,11 +25,6 @@ const About = () => {
         </p>
         
       </div>
-      {/* <div className="large-logo-about">
-        <Link to="/">
-          <img src={logo2} alt="large-logo" />
-        </Link>
-      </div> */}
     </div>
   );
 };
