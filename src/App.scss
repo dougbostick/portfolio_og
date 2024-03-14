@@ -127,38 +127,60 @@
         font-family: "Poppins", sans-serif;
 
         h1 {
-          font-size: 160%;
+          font-size: 180%;
           font-weight: 500;
         }
 
         h2{
           font-weight: 400;
+          font-size: 160%;
         }
         .button-div {
           display: flex;
           flex-direction: column;
-          width: 100%;
+          width: 80%;
+          a {
+            color: $purple;
+            text-decoration: none;
+            font-size: 18px;
+          }
           .flat-button {
             text-align: center;
-            color: $purple;
-            font-size: 120%;
-            font-weight: 600;
             letter-spacing: 4px;
             font-family: "Poppins", sans-serif;
             text-decoration: none;
-            padding: 5% 5%;
+            padding: 10px 18px;
             border: 1px solid $purple;
             border-radius: 14px;
-            margin-top: 25px;
-            // animation: fadeIn 1s 2.2s backwards;
+            margin: 12px;
+            float: left;
             transition: .2s;
-            white-space: nowrap;
-
             &:hover {
               background: $purple;
-              color: $icon;
+              color: white;
+              opacity: 1;
             }
           }
+          // .flat-button {
+          //   text-align: center;
+          //   color: $purple;
+          //   font-size: 120%;
+          //   font-weight: 600;
+          //   letter-spacing: 4px;
+          //   font-family: "Poppins", sans-serif;
+          //   text-decoration: none;
+          //   padding: 2% 2%;
+          //   border: 1px solid $purple;
+          //   border-radius: 14px;
+          //   margin-top: 25px;
+          //   // animation: fadeIn 1s 2.2s backwards;
+          //   transition: .2s;
+          //   white-space: nowrap;
+          //   &:hover {
+          //     background: $purple;
+          //     color: $icon;
+          //   }
+          // }
         }
       }
       .large-logo {
