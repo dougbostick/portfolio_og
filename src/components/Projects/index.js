@@ -1,6 +1,7 @@
 import './index.scss';
 import daja from '../../assets/images/daja.png';
 import seven from '../../assets/images/7-10.png';
+import mise from '../../assets/images/mise.png'
 import half from '../../assets/images/halfway.png';
 import wordRush from '../../assets/images/wordrushlogo.png';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -17,27 +18,26 @@ const Projects = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://word-game-nu.vercel.app/"
+                href="https://usemise.com/"
               >
-                WORD RUSH
+                MISE
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </h1>
             <p>
-              <span className='stack'>Tech Stack: React, SASS, animate.css</span> 
+              <span className='stack'>Tech Stack: React, OpenAI API, SASS, AWS, HTML, CSS, Javascript</span> 
               <br />
               <br />
-              Word Rush is a New York Times inspired word game where you can
-              test your vocabulary with a timed challenge!
+              Mise is an AI powered recipe generator and culinary assistant that leverages the OpenAI API to query LLM's with user input! 
             </p>
           </div>
           <div className="project-logo">
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://word-game-nu.vercel.app/"
+              href="https://usemise.com/"
             >
-              <img src={wordRush} alt="wordRush" className="wordRushLogo" />
+              <img src={mise} alt="wordRush" className="wordRushLogo" />
             </a>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Projects = () => {
               </a>
             </h1>
             <p>
-              <span className='stack'>Tech Stack: React, Google Directions APIs, Places APIs</span>
+              <span className='stack'>Tech Stack: React, Google Directions APIs, Places APIs, HTML, CSS, Javascript</span>
               <br />
               <br />
               Halfway Maps is a Google Maps application that finds places to
@@ -86,7 +86,7 @@ const Projects = () => {
               </a>
             </h1>
             <p>
-              <span className='stack'>Tech Stack: React, Redux Toolkit, Express, PostgreSQL, REST APIs</span>
+              <span className='stack'>Tech Stack: React, Redux Toolkit, Express, PostgreSQL, REST APIs, HTML, CSS, Javascript</span>
               <br />
               <br />
               7-10 Split is an e-commerce bowling app designed to cater to
@@ -113,6 +113,35 @@ const Projects = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
+                href="https://word-game-nu.vercel.app/"
+              >
+                WORD RUSH
+                <FontAwesomeIcon icon={faArrowRight} />
+              </a>
+            </h1>
+            <p>
+              <span className='stack'>Tech Stack: React, SASS, animate.css, HTML, CSS, Javascript</span> 
+              <br />
+              <br />
+              Word Rush is a New York Times inspired word game where you can test your vocabulary with a timed challenge!
+            </p>
+          </div>
+          <div className="project-logo">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://word-game-nu.vercel.app/"
+            >
+              <img src={wordRush} alt="wordRush" className="wordRushLogo" />
+            </a>
+          </div>
+        </div>
+        <div className="last project-div">
+          <div className="project-description">
+            <h1>
+              <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://daja-view1.herokuapp.com"
               >
                 DAJA VIEW
@@ -120,7 +149,7 @@ const Projects = () => {
               </a>
             </h1>
             <p>
-              Tech Stack: React, Express, SQL, Redux, CSS, REST APIs
+              Tech Stack: React, Express, SQL, Redux, CSS, REST APIs, HTML, CSS, Javascript
               <br />
               <br />
               Daja View is a social media app focused on recommending shows and
