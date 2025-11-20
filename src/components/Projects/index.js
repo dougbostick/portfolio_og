@@ -3,6 +3,7 @@ import daja from '../../assets/images/daja.png';
 import seven from '../../assets/images/7-10.png';
 import mise from '../../assets/images/mise.png'
 import half from '../../assets/images/halfway.png';
+import popcorn from '../../assets/images/PopcornLogo.png'
 import wordRush from '../../assets/images/wordrushlogo.png';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,7 +13,7 @@ const Projects = () => {
     <div className="container project-page">
       <h1 className="project-title">PROJECTS</h1>
       <div className="project-list">
-        <div className="first project-div">
+        {/* <div className="first project-div">
           <div className="project-description">
             <h1>
               <a
@@ -38,6 +39,35 @@ const Projects = () => {
               href="https://usemise.com/"
             >
               <img src={mise} alt="wordRush" className="wordRushLogo" />
+            </a>
+          </div>
+        </div> */}
+        <div className="first project-div">
+          <div className="project-description">
+            <h1>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://popcorn-react-front-2cg014wgk-dougbosticks-projects.vercel.app/"
+              >
+                POPCORN
+                <FontAwesomeIcon icon={faArrowRight} />
+              </a>
+            </h1>
+            <p>
+              <span className='stack'>Tech Stack: Typescript, GraphQL, Docker, MongoDB, React, ViteHTML, Apollo Client</span> 
+              <br />
+              <br />
+              Popcorn is a social media app split up between a dynamic GQL back end, SPA React front end, and MongoDB for data persistence! 
+            </p>
+          </div>
+          <div className="project-logo">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://popcorn-react-front-2cg014wgk-dougbosticks-projects.vercel.app/"
+            >
+              <img src={popcorn} alt="wordRush" className="wordRushLogo" />
             </a>
           </div>
         </div>
