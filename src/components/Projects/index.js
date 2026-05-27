@@ -143,7 +143,7 @@ const Projects = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://word-game-nu.vercel.app/"
+                href="https://wordrush.dougbostick923.workers.dev/"
               >
                 WORD RUSH
                 <FontAwesomeIcon icon={faArrowRight} />
@@ -160,7 +160,7 @@ const Projects = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://word-game-nu.vercel.app/"
+              href="wordrush.dougbostick923.workers.dev"
             >
               <img src={wordRush} alt="wordRush" className="wordRushLogo" />
             </a>
