@@ -160,7 +160,7 @@ const Projects = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="wordrush.dougbostick923.workers.dev"
+              href="https://wordrush.dougbostick923.workers.dev"
             >
               <img src={wordRush} alt="wordRush" className="wordRushLogo" />
             </a>
