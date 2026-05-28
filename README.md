@@ -10,9 +10,9 @@ Hello, thank you for coming by my github page to learn more about me and my proj
 My portolfio is a React application utilizing SCSS for beautiful and dynamic stylings that make you feel welcome on every page. 
 
 ## Visit Now
-[ http://dougbosticktech.com/](http://dougbosticktech.com/)
+[ http://portfolio.dougbostick923.workers.dev/](http://portfolio.dougbostick923.workers.dev/)
 
- <a href="http://dougbosticktech.com/" target="_blank">
+ <a href="http://portfolio.dougbostick923.workers.dev/" target="_blank">
 
   <img src="https://github.com/dougbostick/portfolio_og/blob/main/src/assets/images/logo.png" />
  </a>
