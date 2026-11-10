@@ -1,6 +1,6 @@
 import './index.scss';
-import daja from '../../assets/images/daja.png';
-import seven from '../../assets/images/7-10.png';
+// import daja from '../../assets/images/daja.png';
+// import seven from '../../assets/images/7-10.png';
 // import mise from '../../assets/images/mise.png'
 import half from '../../assets/images/halfway.png';
 import popcorn from '../../assets/images/PopcornLogo.png'
