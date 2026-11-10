@@ -48,35 +48,6 @@ const Projects = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://popcorn-react-front-2cg014wgk-dougbosticks-projects.vercel.app/"
-              >
-                POPCORN
-                <FontAwesomeIcon icon={faArrowRight} />
-              </a>
-            </h1>
-            <p>
-              <span className='stack'>Tech Stack: Typescript, GraphQL, Docker, MongoDB, React, ViteHTML, Apollo Client</span> 
-              <br />
-              <br />
-              Popcorn is a social media app split up between a dynamic GQL back end, SPA React front end, and MongoDB for data persistence! 
-            </p>
-          </div>
-          <div className="project-logo">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://popcorn-react-front-2cg014wgk-dougbosticks-projects.vercel.app/"
-            >
-              <img src={popcorn} alt="wordRush" className="wordRushLogo" />
-            </a>
-          </div>
-        </div>
-        <div className="second project-div">
-        <div className="project-description">
-            <h1>
-              <a
-                target="_blank"
-                rel="noreferrer"
                 href="https://dougbostick.github.io/react_halfway/"
               >
                 HALFWAY MAPS
@@ -103,42 +74,37 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="third project-div">
+        <div className="second project-div">
         <div className="project-description">
             <h1>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://seven-ten-split.herokuapp.com/"
+                href="https://popcorn-react-front-2cg014wgk-dougbosticks-projects.vercel.app/"
               >
-                7-10 SPLIT BOWLING SHOP
+                POPCORN
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </h1>
             <p>
-              <span className='stack'>Tech Stack: React, Redux Toolkit, Express, PostgreSQL, REST APIs, HTML, CSS, Javascript</span>
+              <span className='stack'>Tech Stack: Typescript, GraphQL, Docker, MongoDB, React, ViteHTML, Apollo Client</span> 
               <br />
               <br />
-              7-10 Split is an e-commerce bowling app designed to cater to
-              the most serious bowlers! This is a full-stack web application that leverages PostgreSQL for secure user accounts.
+              Popcorn is a social media app split up between a dynamic GQL back end, SPA React front end, and MongoDB for data persistence! 
             </p>
           </div>
           <div className="project-logo">
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://seven-ten-split.herokuapp.com/"
+              href="https://popcorn-react-front-2cg014wgk-dougbosticks-projects.vercel.app/"
             >
-              <img
-                src={seven}
-                className="bowl-logo"
-                alt="seven"
-              />
+              <img src={popcorn} alt="wordRush" className="wordRushLogo" />
             </a>
           </div>
         </div>
-        <div className="last project-div">
-          <div className="project-description">
+        <div className="third project-div">
+        <div className="project-description">
             <h1>
               <a
                 target="_blank"
@@ -163,37 +129,6 @@ const Projects = () => {
               href="https://wordrush.dougbostick923.workers.dev"
             >
               <img src={wordRush} alt="wordRush" className="wordRushLogo" />
-            </a>
-          </div>
-        </div>
-        <div className="last project-div">
-          <div className="project-description">
-            <h1>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://daja-view1.herokuapp.com"
-              >
-                DAJA VIEW
-                <FontAwesomeIcon icon={faArrowRight} />
-              </a>
-            </h1>
-            <p>
-              Tech Stack: React, Express, SQL, Redux, CSS, REST APIs, HTML, CSS, Javascript
-              <br />
-              <br />
-              Daja View is a social media app focused on recommending shows and
-              movies. It leverages themovieDB API to have a robust selection of current
-              media.
-            </p>
-          </div>
-          <div className="project-logo">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://daja-view1.herokuapp.com"
-            >
-              <img src={daja} alt="daja" className="daja" />
             </a>
           </div>
         </div>
